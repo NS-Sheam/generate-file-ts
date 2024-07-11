@@ -40,5 +40,4 @@ export const {{uppercaseFileName}}Services = {
     delete{{uppercaseFileName}}
 }
 `;
-
-module.exports = serviceTemplate;
+export default serviceTemplate;

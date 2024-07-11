@@ -5,4 +5,4 @@ export type T{{uppercaseFileName}} = {
 };
   `;
 
-module.exports = interfaceTemplate;
+export default interfaceTemplate;

@@ -16,4 +16,4 @@ export const JwtHelpers = {
 
 `;
 
-module.exports = jwtHelpersTemplate;
+export default jwtHelpersTemplate;

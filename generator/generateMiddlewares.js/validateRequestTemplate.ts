@@ -18,4 +18,4 @@ const validateRequest = (schema: AnyZodObject) => {
 export default validateRequest;
 `;
 
-module.exports = validateRequestTemplate;
+export default validateRequestTemplate;

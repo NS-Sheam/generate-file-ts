@@ -14,4 +14,4 @@ const catchAsync =
 export default catchAsync
 `;
 
-module.exports = catchAsyncTemplate;
+export default catchAsyncTemplate;

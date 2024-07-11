@@ -21,4 +21,4 @@ const globalErrorHandler = (err, req: Request, res: Response, next: NextFunction
 export default globalErrorHandler;
 `;
 
-module.exports = globalErrorHandlerTemplate;
+export default globalErrorHandlerTemplate;

@@ -1,10 +1,10 @@
 const controllerTemplate = `
 import { Request, Response } from 'express';
-import catchAsync from "../../utils/catchAsync.ts";
+import catchAsync from "../../utils/catchAsync";
 import { 
   {{uppercaseFileName}}Services
- } from "./{{lowercaseFileName}}.service.ts";
-import sendResponse from "../../utils/sendResponse.ts";
+ } from "./{{lowercaseFileName}}.service";
+import sendResponse from "../../utils/sendResponse";
 import httpStatus from 'http-status';
 
 // Create {{lowercaseFileName}}
@@ -80,4 +80,4 @@ export const {{uppercaseFileName}}Controllers ={
 }
 `;
 
-module.exports = controllerTemplate;
+export default controllerTemplate;

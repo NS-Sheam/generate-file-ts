@@ -106,4 +106,4 @@ class QueryBuilder<T> {
 export default QueryBuilder;
   `;
 
-module.exports = queryBuilderTemplate;
+export default queryBuilderTemplate;

@@ -26,4 +26,4 @@ const sendResponse = <T>(res: Response, data: TResponse<T>) => {
 export default sendResponse;
 `;
 
-module.exports = sendResponseTemplate;
+export default sendResponseTemplate;

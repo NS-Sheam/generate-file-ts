@@ -9,4 +9,4 @@ const textToJsonPerser = (req: Request, res: Response, next: NextFunction) => {
   export default textToJsonPerser;
   `;
 
-module.exports = textToJsonParserTemplate;
+export default textToJsonParserTemplate;

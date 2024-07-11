@@ -15,4 +15,4 @@ const {{lowercaseFileName}}Schema = new mongoose.Schema(
 export const {{uppercaseFileName}} = model("{{uppercaseFileName}}", {{lowercaseFileName}}Schema);
 `;
 
-module.exports = modelTemplate;
+export default modelTemplate;

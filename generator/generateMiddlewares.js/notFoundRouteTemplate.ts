@@ -15,4 +15,4 @@ const notFound = (req: Request, res: Responst, next: NextFunction) => {
   export default notFound;
 `;
 
-module.exports = notFoundRouteTemplate;
+export default notFoundRouteTemplate;
